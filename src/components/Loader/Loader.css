@@ -1,0 +1,19 @@
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #aeb4b8;
+  animation: rotateLoader 2s linear infinite;
+}
+
+@keyframes rotateLoader {
+  0% {
+    transform: translate(-50%, -50%) rotateY(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateY(360deg);
+  }
+}

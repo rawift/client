@@ -1,0 +1,10 @@
+.icon-container {
+    font-size: 40px; /* Adjust size as needed */
+    color: #888888; /* Grey color */
+    font-style: italic;
+  }
+  
+  .icon-letter {
+    display: inline-block;
+  }
+  
