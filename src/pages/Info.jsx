@@ -5,6 +5,7 @@ import Bottom from '../components/Bottom/Bottom';
 
 const Info = () => {
   return (
+    <>
     <div className="bg-black h-screen text-white">
       <div className="w-100 p-8">
         <div>
@@ -42,21 +43,16 @@ const Info = () => {
     <img src={buttonImage5} className='w-10 mx-2' alt="Icon" />
     </a>
       </li>
-      <li className='flex items-center'> 
-    <div>
-      Ashish Kumar
-    </div>
-    <a  href="https://www.instagram.com/_.ashissh">
-    <img src={buttonImage5} className='w-10 mx-2' alt="Icon" />
-    </a>
-      </li>
+
    
       </ul>
 
         </div>
       </div>
-      <Bottom />
+      
     </div>
+    <Bottom />
+    </>
   );
 };
 

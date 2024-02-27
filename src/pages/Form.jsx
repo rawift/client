@@ -5,6 +5,7 @@ import { Loader } from '../components/Loader/Loader';
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import axios from 'axios';
 import Bottom from '../components/Bottom/Bottom';
+import Bott from '../components/Bottom/Bott';
 
 
 
@@ -79,6 +80,7 @@ useEffect(()=>{
 
 
   return (
+    <>
     <div className="min-h-screen flex items-center justify-center bg-cover bg-no-repeat" style={{backgroundImage: `url(${loginBackground})`}}>
       <div className="flex items-center justify-center bg-gray-900 bg-opacity-70 rounded-xl shadow-lg w-full max-w-lg p-8">
         <div className="w-full overflow-y-auto" style={{ maxHeight: '80vh' }}>
@@ -165,8 +167,9 @@ useEffect(()=>{
           </form>
         </div>
       </div>
-      <Bottom />
     </div>
+    <Bottom />
+   </>
   );
 }
 

@@ -15,6 +15,7 @@ function Profile() {
         if(user) setLoading(false)
     },[user])
   return (
+    <>
     <div className="min-h-screen flex items-center justify-center bg-cover bg-no-repeat" style={{backgroundImage: `url(${loginBackground})`}}>
       {loading ?<Loader /> :(
           <div class="flex items-center justify-center bg-gray-900 bg-opacity-70 rounded-xl shadow-lg w-80 h-80vw"> 
@@ -48,8 +49,10 @@ function Profile() {
       </div>
       </div>
       )}
-          <Bottom />
+          
     </div>
+    <Bottom />
+    </>
   );
 }
 

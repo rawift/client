@@ -1,0 +1,20 @@
+.bottom-navigation-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a visual separation */
+    display: flex;
+    justify-content: center;
+    padding: 8px; /* Adjust the padding as needed */
+  }
+  
+  .bottom-navigation-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Add additional styling as needed */
+  
